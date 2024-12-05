@@ -3,7 +3,7 @@ const Hero = ()=>{
         <>
 
         <section>
-            <img src="{./pic13.jpeg}" alt="" />
+            <img src="./pic.webp" alt="" />
         </section>
         
         
