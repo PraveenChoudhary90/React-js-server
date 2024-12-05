@@ -1,5 +1,7 @@
 import "./App.css";
 import Nav from './navbar.jsx'
+import Head  from "./header.jsx";
+import Hero from "./Hero.jsx";
 
 function App() {
   let st = {
@@ -8,6 +10,8 @@ function App() {
   };
   return (
     <>
+    <Hero/>
+    <Head/>
     <Nav />
       <h1 style={{ backgroundColor: "red", color: "white" }}>
         Welcome to the react class
