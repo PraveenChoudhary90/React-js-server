@@ -2,6 +2,7 @@ import "./App.css";
 import Nav from './navbar.jsx'
 import Head  from "./header.jsx";
 import Hero from "./Hero.jsx";
+import Hero1  from "./Hero1.jsx";
 
 function App() {
   let st = {
@@ -10,9 +11,11 @@ function App() {
   };
   return (
     <>
-    <Hero/>
+    
     <Head/>
     <Nav />
+    <Hero/>
+    <Hero1/>
       <h1 style={{ backgroundColor: "red", color: "white" }}>
         Welcome to the react class
       </h1>

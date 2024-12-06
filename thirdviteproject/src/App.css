@@ -79,3 +79,30 @@
   align-items: center;
 }
 
+#head1{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 100px;
+}
+#head button{
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+  padding: 14px;
+}
+
+#nav1{
+  background-color: pink;
+ 
+}
+#nav1 nav ul li{
+  list-style: none;
+   display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#nav1 nav ul li a{
+  color: red;
+
+}
+
