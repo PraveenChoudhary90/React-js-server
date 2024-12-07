@@ -3,6 +3,7 @@ import Nav from './navbar.jsx'
 import Head  from "./header.jsx";
 import Hero from "./Hero.jsx";
 import Hero1  from "./Hero1.jsx";
+import Event from "./Event.jsx";
 
 function App() {
   let st = {
@@ -16,6 +17,7 @@ function App() {
     <Nav />
     <Hero/>
     <Hero1/>
+    <Event/>
       <h1 style={{ backgroundColor: "red", color: "white" }}>
         Welcome to the react class
       </h1>
