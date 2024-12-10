@@ -8,7 +8,7 @@ const Child1 = (props)=>{
 
 <h1>{props.Name}</h1>
 
-<Child2  fname = {props.Name}  />
+<Child2  fname = {props.Name} LastName="choudhary"  />
         
        
         </>
