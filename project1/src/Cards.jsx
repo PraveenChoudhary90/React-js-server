@@ -19,7 +19,7 @@ const Cards = () => {
       <div className="container">
         <div className="row">
           <div className="col-4">
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card  p-1" style={{ width: "18rem" }}>
               <img src={img} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title" style={{ marginLeft: "90px" }}>
@@ -47,7 +47,7 @@ const Cards = () => {
           </div>
 
           <div className="col-4">
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card p-1" style={{ width: "18rem" }}>
               <img src={img1} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title" style={{ marginLeft: "90px" }}>
@@ -75,7 +75,7 @@ const Cards = () => {
           </div>
 
           <div className="col-4">
-            <div className="card" style={{ width: "18rem" }}>
+            <div className="card p-1" style={{ width: "18rem" }}>
               <img src={img2} className="card-img-top" alt="..." />
               <div className="card-body">
                 <h5 className="card-title" style={{ marginLeft: "90px" }}>
