@@ -6,6 +6,7 @@ import About from './About'
 import Contact from './Contact'
 import Blog from './Blog'
 import Service from './Service'
+import Navbar from './Layout'
 
 
 function App() {
@@ -18,10 +19,13 @@ function App() {
       <Route path='/contact' element={<Contact/>}/>
       <Route path='/blog' element={<Blog/>}/>
       <Route path='/service' element={<Service/>} />
+      {/* <Route path='/layout' element={<Navbar/>} /> */}
 
 
       
      </Routes>
+
+     <Navbar />
     </>
   )
 }
