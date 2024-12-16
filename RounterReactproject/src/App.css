@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 } */
+ .Box nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 30px;
+  list-style: none;
+  text-decoration: none;
+ }
+ .Box nav ul li{
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 40px;
+  padding: 20px;
+ }
