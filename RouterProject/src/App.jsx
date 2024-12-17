@@ -7,6 +7,7 @@ import Contact from './Contact'
 import Blog from './Blog'
 import Service from './Service'
 import Layout from './Layout'
+import Layout1 from './Layout1'
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
   return (
     <>
      <Routes>
-      <Route path='/' element={<Layout/>}>
+      <Route path='/' element={<Layout1/>}>
       <Route index element={<Home/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/contact' element={<Contact/>}/>
