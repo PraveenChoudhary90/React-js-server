@@ -1,13 +1,16 @@
 import { useState } from "react";
 
 const Layout1 =()=>{
-    return (
-   let [color , setColor]=useState("red");
-
-   function addcolor(color){
+    let [color , setColor]=useState("red");
+       function addcolor(color){
     setColor("green");
+       }
+    return (
+   
 
-   }
+
+
+   
         <>
         
         <div style={{width:"300px",height:"300px",backgroundColor:color}}>
