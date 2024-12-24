@@ -18,12 +18,13 @@ const From =()=>{
         <>
         <h1>my name{h}</h1>
         <h1>my course {w}</h1>
-        <h1>time is now{value}</h1>
+        <h1>{value}</h1>
         <input type="text" onChange={hinput} placeholder="enter your name" />
         <input type="text" onChange={winput} placeholder="enter your course" />
-        <button onChange={()=>setvalue(!value)}>submit</button>
+        <button onClick={()=>setvalue(!value)}>submit{(value)?"time is now":"not good "}</button>
         
         </>
     )
+
 }
 export default From;
