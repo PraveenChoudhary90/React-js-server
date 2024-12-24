@@ -46,7 +46,8 @@ function App() {
         Change
       </button>
       <div style={{ width: "400px", height: "400px", backgroundColor:pic}}></div>
-        <button onClick={Datapic}>pic1</button>
+      
+        <button  onClick={Datapic}><img src={img} alt="" />pic1</button>
         <button onClick={Datapic1}>pic2</button>
         <button onClick={Datapic2}>pic3</button>
         <button onClick={Datapic3}>pic4</button>
