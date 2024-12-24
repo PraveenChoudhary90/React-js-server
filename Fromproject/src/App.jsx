@@ -1,6 +1,7 @@
 
 import './App.css'
 import From from './From'
+import From1 from './From1'
 
 function App() {
   
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
     <From/>
+    <From1/>
     </>
 
   )
