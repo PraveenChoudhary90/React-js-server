@@ -1,5 +1,6 @@
 
 import './App.css'
+import Filter from './Filter'
 import From from './From'
 import MapMethod from './Mapfunction'
 
@@ -11,6 +12,7 @@ function App() {
     <>
       <From/>
       <MapMethod/>
+      <Filter/>
     </>
   )
 }
