@@ -2,6 +2,7 @@
 import './App.css'
 import Filter from './Filter'
 import From from './From'
+import LocalStorage from './LocalStorage'
 import MapMethod from './Mapfunction'
 
 
@@ -13,6 +14,7 @@ function App() {
       <From/>
       <MapMethod/>
       <Filter/>
+      <LocalStorage/>
     </>
   )
 }
