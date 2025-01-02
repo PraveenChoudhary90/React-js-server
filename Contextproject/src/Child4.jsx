@@ -1,9 +1,8 @@
-import { cdata } from "./App";
-
+import {ddata} from "./Child2"
 const Child4 =()=>{
     return(
         <>
-        <cdata.Consumer>
+        <ddata.Consumer>
             {
                 (data1)=>{
                     return(
@@ -11,7 +10,7 @@ const Child4 =()=>{
                     )
                 }
             }
-        </cdata.Consumer>
+        </ddata.Consumer>
         <h1>hello everyone</h1>
         </>
     )
