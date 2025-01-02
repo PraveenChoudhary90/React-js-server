@@ -46,7 +46,6 @@ const Local = ()=>{
             <input type="text" name="pass" value={inputname.pass} onChange={hinput} /><br></br>
             <input type="submit" />
         </form>
-        <Login/>
         </>
     )
 }
