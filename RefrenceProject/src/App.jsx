@@ -13,8 +13,7 @@ function App() {
   refl.current.style.backgroundColor="red";
  }
  function change2(){
-  refl.current.style.backgroundColor="blue";
- }
+  refl.current.style.backgroundColor="blue"; }
   
 
   return (
