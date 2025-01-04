@@ -1,6 +1,7 @@
 
 import { useRef } from 'react'
 import './App.css'
+import Home from './Home';
 
 function App() {
  let refl =  useRef("");
@@ -22,6 +23,7 @@ function App() {
      {/* <button onMouseEnter={change1}>Enter</button>
      <button onMouseLeave={change2} >Leave</button> */}
      <button onClick={change}  >Click</button>
+     <Home/>
     </>
   )
 }
