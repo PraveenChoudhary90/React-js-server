@@ -1,5 +1,7 @@
-import {Link, Outlet} from "react-router-dom"
+import {Link, Outlet, useParams} from "react-router-dom"
 const Navbar = ()=>{
+//    let name =  useParams();
+//    console.log(name)
     return(
         <>
         <div>
@@ -7,6 +9,7 @@ const Navbar = ()=>{
                 
                 <li><Link to="/">Home</Link></li>
                 <li><Link to="about">About</Link></li>
+                <li><Link to="parameter">Parameter</Link></li>
                 {/* <li><Link to="contact">Contact</Link></li> */}
             </ul>
         </div>
