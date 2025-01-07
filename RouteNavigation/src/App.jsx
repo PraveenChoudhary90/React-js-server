@@ -6,6 +6,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import Parameter from './Parameter'
+import Param from './Param'
 
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
         <Route path='about' element={<About/>} />
         <Route path='contact' element={<Contact/>}/>
         <Route path='parameter/:name/:age' element={<Parameter/>} />
+        <Route path='Param/:course' element={<Param/>} />
       </Route>
      </Routes>
     </>
