@@ -1,0 +1,60 @@
+{
+  "Students": [
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "23b1"
+    },
+    {
+      "name": "pradum",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "indore",
+      "id": "0200"
+    },
+    {
+      "name": "bittu",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "seoni",
+      "id": "443e"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "1b43"
+    },
+    {
+      "name": "pradum",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "indore",
+      "id": "20cb"
+    },
+    {
+      "name": "bittu",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "seoni",
+      "id": "956e"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "9221"
+    },
+    {
+      "name": "pradum",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "indore",
+      "id": "8bb5"
+    }
+  ]
+}
