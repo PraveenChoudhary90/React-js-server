@@ -1,0 +1,25 @@
+{
+  "student": [
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 1231234,
+      "city": "bhopal",
+      "id": "b018"
+    },
+    {
+      "name": "pradum",
+      "age": 23,
+      "contact": 1267834,
+      "city": "indore",
+      "id": "3147"
+    },
+    {
+      "name": "lucky",
+      "age": 23,
+      "contact": 1231230,
+      "city": "seoni",
+      "id": "e664"
+    }
+  ]
+}
