@@ -1,6 +1,6 @@
 
 import './App.css'
-// import Asiox from './Asiox'
+import Asiox from './Asiox'
 import Fet from './Fet'
 
 function App() {
@@ -8,8 +8,9 @@ function App() {
   return (
     <>
     
-    {/* <Asiox/> */}
+    <Asiox/>
     <Fet/>
+  
      
     </>
   )
