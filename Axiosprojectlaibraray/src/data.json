@@ -1,0 +1,53 @@
+{
+  "student": [
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "29bc"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "29bc"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "29bc"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "29bc"
+    },
+    {
+      "name": "praveen",
+      "age": 23,
+      "contact": 9098354728,
+      "city": "bhopal",
+      "id": "29bc"
+    },
+    {
+      "id": "231c",
+      "name": "rohit",
+      "age": "90",
+      "contact": "9098354728",
+      "city": "pune"
+    },
+    {
+      "id": "bfcb",
+      "name": "rohit",
+      "age": "90",
+      "contact": "9098354728",
+      "city": "pune"
+    }
+  ]
+}
