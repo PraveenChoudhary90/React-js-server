@@ -22,6 +22,7 @@ const Fet = ()=>{
         </ul>
         <table border="">
             <thead>
+                <th>ID</th>
                 <th>Name</th>
                 <th>Age</th>
                 <th>Contact</th>
@@ -34,6 +35,7 @@ const Fet = ()=>{
                 <td>{e.id}</td>
                 <td>{e.name}</td>
                 <td>{e.age}</td>
+                <td>{e.contact}</td>
                 <td>{e.city}</td>
                 <td><button onClick={()=>mydel(e.id)} >Delete</button></td>
             </tr>
