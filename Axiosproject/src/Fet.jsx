@@ -5,14 +5,14 @@ import { useEffect } from "react";
 const Fet = ()=>{
     let[apidata,setApidata]=useState([]);
     useEffect(()=>{
-        axios.get("http://localhost:4000/student")
+        axios.get("http://localhost:3000/students")
         .then(res=>{
             console.log(res.data);
             setApidata(res.data);
         })
     },[mydel])
     function mydel(id){
-        axios.delete(`http://localhost:4000/student/${id}`)
+        axios.delete(`http://localhost:3000/students/${id}`)
         .then(res=>{deleted});
     }
     return(
