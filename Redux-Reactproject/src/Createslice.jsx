@@ -13,5 +13,5 @@ const counter = createSlice({
 //reducers --->store hote hai
 //action
 
-export const {inc,dec}=counter.actions;
-export default counter.reducers;
+export const {inc,dec}=counter.actions;//destruture
+export default counter.reducers;//default ke name chnage kar sakte
