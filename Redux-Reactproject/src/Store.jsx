@@ -3,7 +3,7 @@ import counterRd from "./Createslice"
 const store = configureStore(
     {
         reducer:{
-            name:counterRd
+            counter:counterRd
         }
     }
 )
