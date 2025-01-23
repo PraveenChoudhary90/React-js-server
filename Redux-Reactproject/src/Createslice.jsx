@@ -8,7 +8,7 @@ const counter = createSlice({
       state.value += 1;
     },
     dec: (state) => {
-      state.value += 1;
+      state.value -= 1;
     },
   },
 });

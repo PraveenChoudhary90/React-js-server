@@ -10,7 +10,7 @@ function App() {
     <>
      <h1> {c} </h1>
      <button onClick={()=>dis(inc())} >Increment</button>
-     {/* <button onClick={()=>dis(dec())} >Decrement</button> */}
+     <button onClick={()=>dis(dec())} >Decrement</button>
     </>
   )
 }
